@@ -36,7 +36,7 @@ Transform in pwa
 $ ng add @angular/pwa 
 
 Deploy:
-$ firebase build --prod
+$ ng build --prod
 $ firebase deploy
 
 
