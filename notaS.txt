@@ -16,5 +16,30 @@ cd <project-name>
 Prerequisites:
 $ npm install @angular/cli
 
+Referência da Firebase CLI
+https://firebase.google.com/docs/cli
+
+$ npm install -g firebase-tools
+
+$ firebase login
+$ firebase logout
+
+try test the login
+$ firebase list
+
+Initialize the project firebase
+$ firebase init 
+
+Deploy:
+$ firebase deploy
+
+
+$ npm install @angular/fire firebase --save
+
+
+
+
+
+
 
 
