@@ -33,8 +33,10 @@ $ firebase init
 Deploy:
 $ firebase deploy
 
-
 $ npm install @angular/fire firebase --save
+
+Transform in pwa
+$ ng add @angular/pwa 
 
 
 
