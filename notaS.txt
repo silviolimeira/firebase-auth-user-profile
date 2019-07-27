@@ -1,0 +1,20 @@
+firebase-auth-user-profile
+
+Google User Auth Firestore with Custom data:
+That’s it for basic OAuth with Firebase. Now you can start saving custom user information to firestore to build a complex and robust user authentication system.
+
+https://angularfirebase.com/lessons/google-user-auth-with-firestore-custom-data/
+
+
+Installation and Setup
+https://github.com/angular/angularfire2/blob/master/docs/install-and-setup.md
+
+Create project:
+ng new <project-name>
+cd <project-name>
+
+Prerequisites:
+$ npm install @angular/cli
+
+
+
