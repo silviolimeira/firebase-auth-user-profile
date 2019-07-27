@@ -28,15 +28,17 @@ try test the login
 $ firebase list
 
 Initialize the project firebase
-$ firebase init 
-
-Deploy:
-$ firebase deploy
+$ firebase init // angular pwa use dist/project_name instead public folder
 
 $ npm install @angular/fire firebase --save
 
 Transform in pwa
 $ ng add @angular/pwa 
+
+Deploy:
+$ firebase build --prod
+$ firebase deploy
+
 
 
 
