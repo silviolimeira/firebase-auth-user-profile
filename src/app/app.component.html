@@ -2,8 +2,19 @@
 <div style="text-align:center">
   <h1>Welcome to {{ title }}!</h1>
 </div>
+
+<div *ngIf="afAuth.user | async as user; else showLogin">
+  <h1>Hello {{ user.displayName }}!</h1>
+  <button (click)="makeRequest()">Make request</button>
+  <button (click)="googleSignOut()">Google Logout</button>
+</div>
+<ng-template #showLogin>
+  <p>Please login.</p>
+  <button (click)="googleSignIn()">Google Login</button>
+</ng-template>
+
 <ul>
-  <li class="text" *ngFor="let item of items | async">
+  <li class="text" *ngFor="let item of items$ | async">
     {{ item.name }}
   </li>
 </ul>
